@@ -1,21 +1,3 @@
-/*
-woman kissing the dog
-Photo by <a href="https://unsplash.com/@nickbrownlow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Nicholas Brownlow</a> on <a href="https://unsplash.com/photos/a-woman-kissing-her-dog-on-the-cheek-lx_KwA7hlLU?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
- 
-
-sleppy cat
-Photo by <a href="https://unsplash.com/@lemonzandtea?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Aleksandar Cvetanovic</a> on <a href="https://unsplash.com/photos/orange-tabby-cat-sleeping-on-white-pet-bed-A7nK49HCqSI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
- 
-playing cat
-Photo by <a href="https://unsplash.com/@flowerchildkimmi?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kim Davies</a> on <a href="https://unsplash.com/photos/gray-kitten-sitting-on-floor-fEK4jvgnApg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-dog in a walk
-Photo by <a href="https://unsplash.com/@tadekl?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Tadeusz Lakota</a> on <a href="https://unsplash.com/photos/person-patting-adult-black-and-white-border-collie-TnSnLBrJQ6c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-pancakes
-Photo by <a href="https://unsplash.com/@foodess?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Food Photographer | Jennifer Pallian</a> on <a href="https://unsplash.com/photos/pancake-served-in-ceramic-plate-FT7fjyEyqv0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
-*/
 
 * {
 	margin: 0;
@@ -64,7 +46,7 @@ nav ul {
 	margin-bottom: 5px;
 }
 
-nav li {
+nav li, .authors {
 	list-style: none;
 	display: inline-block;
 	}
@@ -258,6 +240,16 @@ address {
 #email-address {
 	text-decoration: none;
 	color: black;
+}
+.site-info {
+	margin: 20px auto 0 auto;
+	width: 70%;
+	text-align: center;
+	
+}
+
+.site-info p {
+	font-weight: 700;
 }
 
 @media only screen and (max-width: 600px) {
